@@ -1,10 +1,5 @@
-"""
-i=0
-while i<3:
-    print(i)
-    i=i+1
-print("klar")
 
+"""
 i=3
 while i<11:
     print(i)
@@ -29,9 +24,10 @@ while i>1:
     print(i)
     i=i-3
 print("klar")
-"""
+
 i=1
-while i<7:
-    print(i*i)
+while i<6:
+    print(i**2)
     i=i+1
 print("klar")
+"""
