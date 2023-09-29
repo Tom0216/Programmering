@@ -8,7 +8,6 @@ while svar !=42 and antal_gissningar < 5:
         svar = int(input("för litet"))
     antal_gissningar = antal_gissningar +1
 if svar == 42:
-    print("rätt")
-
+    print ("Rätt")
 print(antal_gissningar)
 print("klar")
