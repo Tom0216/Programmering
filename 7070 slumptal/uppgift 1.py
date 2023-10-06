@@ -1,40 +1,12 @@
-
 fråga =input ("Vill du spela? j/n")
 import random
-i = 0
-while i < 2:
-    print(random.randrange(2,4))
-    i = i + 1
-input ("Förlust")
-
-
-fråga =input ("Vill du spela? j/n")
-import random
-i=0
-while i< 2:
-    print(random.randrange(2,7,4))
-    i = i + 1
-input ("Förlust")
-
-
-input ("Vill du spela? j/n")
-import random
-i= 0
-while i<2:
-    print(random.randrange(6, 7))
-    i=i + 1
-input ("vinst")
-
-
-input ("Vill du spela? j/n")
-import random
-i= 0
-while i<2:
-    print(random.randrange(4, 5))
-    i=i + 1
-input ("vinst")
-
-
-input ("vill du spela en stund? j/n")
-input ("Vad roligt att du ville spela en stund!")
-
+while fråga=="j":
+    t1 = random.randrange(1,7)
+    t2 = random.randrange (1, 7)
+    print (t1, t2)
+    if t1==t2:
+        print("vinst")
+    else:
+        print("förlust")
+    fråga =input ("Vill du spela? j/n")
+print ("Vad roligt att du spelde en stund")
