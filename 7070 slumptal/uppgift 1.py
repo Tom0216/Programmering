@@ -77,6 +77,5 @@ while fråga=="s":
     else:
         print("förlust")
     fråga =input ("Välj spela (s), sätt in pengar (i), eller avsluta (a)")
-while fråga==("a"):
-    input ("Vad roligt att du spelade en stund!")
+print ("Vad roligt att du spelade en stund!")
 print ("klar")
