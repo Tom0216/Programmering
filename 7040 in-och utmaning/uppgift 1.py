@@ -1,8 +1,8 @@
 
-"""
+
 namn = input ("Vad heter du?")
 print("Hej", namn, "!")
-
+"""
 färg = input ("vad är din favritfärg?")
 print(namn,"din favoritfärg är",färg)
 
