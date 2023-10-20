@@ -50,7 +50,7 @@ while fråga=="j":
         print("förlust")
     fråga =input ("Vill du spela? j/n")
 print ("Vad roligt att du spelde en stund")
-
+"""
 """
 fråga = print ("Välkommen att kasta tärning")
 print ("Ett spel kostar en krona")
@@ -79,3 +79,4 @@ while fråga=="s":
     fråga =input ("Välj spela (s), sätt in pengar (i), eller avsluta (a)")
 print ("Vad roligt att du spelade en stund!")
 print ("klar")
+"""
