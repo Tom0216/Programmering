@@ -1,6 +1,14 @@
 Loggbok
 ==============
 
+23 10 20
+-------------
+
+De uppgifterna som jag gjort den här veckan är slumptal 1 och slumptal 2
+
+Jag tycke rändå det har gått ganska bra idag. Jag tyckte det var lite svårt att få ner beloppet i slumptal så gick ifrån 100, 99, 98 och att det gjorde så automatiskt.Sedan så tyckte jag att det var lite svårt att det börjar stå sten, sax och påse. Det som har hjälpt mmig idag är att jag har kollat tillbaks på mina gamla uppgifter och Rikard har också lärt mig.
+
+Så idag så har jag lärt mig hur man går ner från ett tal automatiskt och hur man får in sten sax påse 
 
 23 10 13
 -------------
