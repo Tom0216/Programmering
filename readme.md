@@ -1,6 +1,11 @@
 Loggbok
 ==============
 
+23 10 27
+-------------
+
+De här två dagarna både måndag och fedag så har jag gjort klart sten, sax, påse. Svårigheten med det var att det var siffror som man skulle ställa in i början och sådant som jag missade. 
+Men jag har börjat med flödesdiagram uppgiften.
 23 10 20
 -------------
 
