@@ -1,6 +1,16 @@
 Loggbok
 ==============
 
+23 11 24
+-------------
+I måndags så började jag på 7100 på listor. Då gjorde jag klart uppgift 1 (statestik för tärningstjänst) och uppgift 2 (primtal). Det var ganska svårt med primtalsuppgiften så jag fick hjälp med den uppgiften. Men jag tyckte uppgift 1 ändå gick ganska bra. 
+
+På fredagen så gjorde jag klart uppgift 3 (rövarspråket). Det var svårt i början men jag började att förstå mer och mer på uppgiften. 
+
+Svårigheter med uppgifterna var att i början så visste jag inte ens vad ett primtal var för någonting och i rövarspråksupgiften så var det svårt eftersom man skulle göra en if-sats och det visste jag inte ifrån början. 
+
+Jag har lärt mig hur jag gör en if sats. 
+
 23 10 27
 -------------
 
