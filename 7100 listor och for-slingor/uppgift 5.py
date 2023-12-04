@@ -1,5 +1,3 @@
-
-
 import random
 t1 = [(random.randint(1,6))]
 
