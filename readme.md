@@ -1,6 +1,10 @@
 Loggbok
 ==============
 
+23 12 15
+-------------
+Idag så har jag hållt på med att programmera en väldigt svår uppgift för mig som heter black jack. Det som jag har haft svårt med är hur jag ska programmera in sakerna som står. Men jag tyckte ändå att jag försökte idag och gjorde mitt bästa även fast jag inte kommit jättelångt med uppgiften.Rikard hjälpte mig idag 
+
 23 11 24
 -------------
 I måndags så började jag på 7100 på listor. Då gjorde jag klart uppgift 1 (statestik för tärningstjänst) och uppgift 2 (primtal). Det var ganska svårt med primtalsuppgiften så jag fick hjälp med den uppgiften. Men jag tyckte uppgift 1 ändå gick ganska bra. 
