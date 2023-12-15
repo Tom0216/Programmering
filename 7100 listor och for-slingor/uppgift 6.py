@@ -1,20 +1,16 @@
-kod= "lwthni_lnqqfw_qtb_bjnlmy_utqdstrnfq_rzqynuqjx"
+kod= "en haerlig vinter"
 
 svar = ""
 Bokstäver = "abcdefghijklmnopqrstuvwxyz"
-chiffer= "zyxwvutsrqonmlkjihgfedcba"
+chiffer=    "zyxwvutsrqponmlkjihgfedcba"
 
-for index in range(1,27):
-    svar = ""
-    for bokstav in kod:
-        if bokstav == "_":
-            svar = svar + bokstav
-        else:
-            tal = ord(bokstav)    
-            #print(tal, bokstav)
-            tal = tal + index
-            if tal > ord("z"):
-                tal = tal - 26
-            ny_bokstav = chr(tal)
-            svar = svar + ny_bokstav
-    print (svar)
+
+svar = ""
+for bokstav in kod:
+    # index för bokstav i Bokstäver
+    i = Bokstäver.find(bokstav)
+    # lägg till bokstaven på index från chiffer i svar
+    svar = svar + chiffer[i]
+
+    
+print (svar)
