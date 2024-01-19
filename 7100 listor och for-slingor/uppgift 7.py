@@ -12,7 +12,7 @@ for i in range(1, 11):
     kortlek.append(i)
     kortlek.append(i)
 random.shuffle(kortlek)
-print(kortlek)
+
 
 hand = []
 
@@ -26,7 +26,6 @@ hand.append(last)
 last = kortlek.pop()
 # lägg kortet i hand
 hand.append(last) 
-print (kortlek)   
 print (hand)
 
 # ge kort till dealern
@@ -56,11 +55,27 @@ while sum (dealern) <17:
         print (dealern)
 
 # vem vann?
-if sum(hand) > sum (dealern) and sum (hand)<=21 or sum(dealern) >=21:
+
+if sum (hand)<=21:
     print ("hand vinner")
 else:
-    if sum(hand) < sum (dealern) and sum (dealern)<=21:
-        print ("dealern vann")
+    if sum(hand) > sum (dealern):
+        print ("hand vinner")
+    else:
+        sum(dealern) >=21:
+    print ("hand vinner")
+if sum (hand) >21:
+    print ("dealern vann")
+else:
+    if sum(hand) < sum (dealern)
+    print ("dealern vann")
+    else:
+if sum (dealern)<=21:
+    print ("dealern vann")
+else:
+    if sum(hand) and sum (dealern) >21:
+                print ("ingen vann")
+
 print ("hand summa:", sum (hand))
 print ("dealern summa:", sum (dealern))
 
