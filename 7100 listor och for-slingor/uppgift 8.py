@@ -43,4 +43,3 @@ elif svar == 5:
     ("antalet femmor", tärningar.count (5))
 elif svar == 6:
     ("antalet sexor", tärningar.count (6))
-hand = []
