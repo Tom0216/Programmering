@@ -42,4 +42,9 @@ Jag har lärt mig b.la. att få in slumptal i python och har liksom fattat vad s
 -------------
 
 Idag så gjorde jag nästan klart uppgift 7 som var blackjack men det var en sak som strulade där som var att vissa gånger som dealern hade mindre så var det ändå hand som vann. Jag ska kolla mer på det nästa lektion men jag började också på yatsyuppgiften men behöver också lite hjälp med den hur man får in alla alternativ som ettor, tvår, treor, fyror mm i koden. 
-Men ska försöka se på videor och sådant hemma och kanske så listar jag ut hur man gör. 
+Men ska försöka se på videor och sådant hemma och kanske så listar jag ut hur man gör.
+
+24 01 22
+-------------
+
+Idag så jobbade jag med yatsy uppgiften och tyckte ändå det gick ganska bra efter jag fick veta hur jag skulle böra med uppgiften. En sak som strulade och var jobbigt var att när tärningarna slås om man kör koden så blir det alltid samma nummer så ska försöka fixa det nästa gång och försöka få till mer hur man väljer de olika valen som man kan göra. Idag så har jag påbörjat en if sats som har gått ganska bra och ska fortsätta med den nästa gång med.
