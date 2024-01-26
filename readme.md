@@ -1,6 +1,22 @@
 Loggbok
 ==============
 
+24 01 26
+-------------
+
+Idag så fortsatte jag med yatsy uppgiften och tyckte ändå det gick bra med den uppgiften idag. Jag har fått den till att räkna tärningarna som väljer och att tärningarna blivit mycket mer blandade. Idag så har jag lärt mig hur man ska göra med tärningarna för att de ska bli bra blandade och inte 1,2,3,4,5,6 som det var innan bara i slumpmässig ordning. De svåraste som jag tyckte idag var att blanda tärningarna eftersom jag hade tänkt på ett annat sätt innan. 
+
+24 01 22
+-------------
+
+Idag så jobbade jag med yatsy uppgiften och tyckte ändå det gick ganska bra efter jag fick veta hur jag skulle böra med uppgiften. En sak som strulade och var jobbigt var att när tärningarna slås om man kör koden så blir det alltid samma nummer så ska försöka fixa det nästa gång och försöka få till mer hur man väljer de olika valen som man kan göra. Idag så har jag påbörjat en if sats som har gått ganska bra och ska fortsätta med den nästa gång med.
+
+24 01 19
+-------------
+
+Idag så gjorde jag nästan klart uppgift 7 som var blackjack men det var en sak som strulade där som var att vissa gånger som dealern hade mindre så var det ändå hand som vann. Jag ska kolla mer på det nästa lektion men jag började också på yatsyuppgiften men behöver också lite hjälp med den hur man får in alla alternativ som ettor, tvår, treor, fyror mm i koden. 
+Men ska försöka se på videor och sådant hemma och kanske så listar jag ut hur man gör.
+
 23 12 15
 -------------
 Idag så har jag hållt på med att programmera en väldigt svår uppgift för mig som heter black jack. Det som jag har haft svårt med är hur jag ska programmera in sakerna som står. Men jag tyckte ändå att jag försökte idag och gjorde mitt bästa även fast jag inte kommit jättelångt med uppgiften.Rikard hjälpte mig idag 
@@ -37,14 +53,3 @@ De uppgifterna som jag har gjort idag och i måndags är slumptal 1 och slumptal
 Jag tycker ändå det gått väldigt bra idag. Det som jag tyckte var svårast var att det var så mycket och man fick liksom gå tillbaka till massa andra uppgifter för att se hur jag har gjort när jag gjort det uppgifterna. Men jag har börjat förstå mycket mer vad och när man ska använda saker. Jag löste som sagt svårigheterna genom att kolla tillbaks på mina förra uppgifter som jag har gjort. Det som jag har använt mig utav är Rikard och utav mina gammla uppgifter. 
 
 Jag har lärt mig b.la. att få in slumptal i python och har liksom fattat vad skillnaden är mellan print och input. 
-
-24 01 19
--------------
-
-Idag så gjorde jag nästan klart uppgift 7 som var blackjack men det var en sak som strulade där som var att vissa gånger som dealern hade mindre så var det ändå hand som vann. Jag ska kolla mer på det nästa lektion men jag började också på yatsyuppgiften men behöver också lite hjälp med den hur man får in alla alternativ som ettor, tvår, treor, fyror mm i koden. 
-Men ska försöka se på videor och sådant hemma och kanske så listar jag ut hur man gör.
-
-24 01 22
--------------
-
-Idag så jobbade jag med yatsy uppgiften och tyckte ändå det gick ganska bra efter jag fick veta hur jag skulle böra med uppgiften. En sak som strulade och var jobbigt var att när tärningarna slås om man kör koden så blir det alltid samma nummer så ska försöka fixa det nästa gång och försöka få till mer hur man väljer de olika valen som man kan göra. Idag så har jag påbörjat en if sats som har gått ganska bra och ska fortsätta med den nästa gång med.
