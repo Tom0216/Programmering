@@ -18,10 +18,25 @@ Chans= ("Chans")
 Yatsy= ("Yatsy")
 
 tärningar = []
-for i in range(1, 7):
-    tärningar.append(i)
-random.shuffle(tärningar)
+# upprepa 5 gånger
+# kasta tärning (slumpa) lägg till i tärningar
+
+slumptal = random.randrange(1, 7)
+tärningar.append(slumptal)
+slumptal = random.randrange(1, 7)
+tärningar.append(slumptal)
+slumptal = random.randrange(1, 7)
+tärningar.append(slumptal)
+slumptal = random.randrange(1, 7)
+tärningar.append(slumptal)
+slumptal = random.randrange(1, 7)
+tärningar.append(slumptal)
+
 print (tärningar)
+
+# upprepa 5 gånger
+# kasta tärning (slumpa) lägg till i tärningar
+
 
 print("1. ettor")
 print("2. tvåor")
@@ -32,14 +47,14 @@ print ("6. sexor")
 
 svar = input("välj: ")
 if svar == "1":
-    ("antal ettor", tärningar.count(1))
+    print("antal ettor:", tärningar.count(1))
 elif svar == "2":
-    ("antal tvår", tärningar.count(2))
-elif svar == 3:
-    ("antal treor", tärningar.count (3))
-elif svar ==4:
-    ("antalet fyror", tärningar.count (4))
-elif svar == 5:
-    ("antalet femmor", tärningar.count (5))
-elif svar == 6:
-    ("antalet sexor", tärningar.count (6))
+    print("antal tvåor:", tärningar.count(2))
+elif svar == "3":
+    print("antal treor:", tärningar.count (3))
+elif svar == "4":
+    print("antal fyror:", tärningar.count (4))
+elif svar == "5":
+    print("antal femmor:", tärningar.count (5))
+elif svar == "6":
+    print("antal sexor:", tärningar.count (6))
