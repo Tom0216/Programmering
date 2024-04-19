@@ -17,7 +17,22 @@ Kåk= ("Kåk")
 Chans= ("Chans")
 Yatsy= ("Yatsy")
 
-sparade_alternativ = {'ettor' : -1, 'tvåor' : -1, 'treor' : -1, 'fyror' : -1, 'femmor': -1,'sexor':-1}
+sparade_alternativ = {'ettor' : -1, 
+                      'tvåor' : -1, 
+                      'treor' : -1, 
+                      'fyror' : -1, 
+                      'femmor': -1,
+                      'sexor':-1,
+                      'bonus':-1,
+                      'par':-1,
+                      'tvåpar':-1,
+                      'tretal':-1,
+                      'fyrtal':-1,
+                      'litenstege':-1,
+                      'storstege':-1,
+                      'kåk':-1,
+                      'chans':-1,
+                      'yatsy':-1,}
 print(sparade_alternativ)
 
 for j in range(6):
@@ -40,12 +55,13 @@ for j in range(6):
     print (tärningar)
     for i in range(2):
         # välj vilka tärningar som ska sparas
-        print("1. ettor")
-        print("2. tvåor")
-        print("3. treor")
-        print("4.fyror")
-        print ("5. femmor")
-        print ("6. sexor")
+        ettor= print ==1
+        tvåor= print ==2
+        treor= print ==3
+        fyror= print == 4
+        femmor= print == 5
+        sexor= print == 6
+
 
         svar = input("välj: ")
         if svar == "1":
@@ -149,6 +165,19 @@ for j in range(6):
         print("4.fyror")
         print ("5. femmor")
         print ("6. sexor")
+        print ("7. bonus")
+        print ("8. 1 par")
+        print ("9. 2 par")
+        print ("10. 3 par")
+        print ("11. triss")
+        print ("12. fyrtal")
+        print ("13. 2 triss")
+        print ("14. liten stege")
+        print ("15. stor stege")
+        print ("16. royal flash")
+        print ("17. kåk")
+        print ("18. chans")
+        print ("19. YATZY")
 
         svar = input("välj: ")
     
@@ -192,7 +221,24 @@ for j in range(6):
                 godkännt_val= True
             else:
                 gokännt_val = False
-
+        if svar == "7":
+            if sparade_alternativ ["bonus"] == -1:
+                sparade_alternativ ["bonus"] = tärningar.count (1-6) == 52
+                godkännt_val = True
+            else:
+                gokännt_val == False
+        if svar == "8":
+            if sparade_alternativ ["1 par"] == -1:
+                sparade_alternativ ["1 par"] = tärningar.count #?
+                godkännt_val == True
+            else:
+                gokännt_val == False
+        if svar == "9":
+            if sparade_alternativ ["2 par"] == -1:
+                sparade_alternativ ["2 par"] = tärningar.count #?
+                godkännt_val == True
+            else:
+                gokännt_val == False
         print(sparade_alternativ)
 print ("antal", sum (sparade_alternativ.values()))
 
