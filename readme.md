@@ -1,5 +1,9 @@
 Loggbok
 ==============
+24 04 19
+------------
+Idag så har jag gjort klart yatsy uppgiften. Det är ganska lång tid som jag hållit på med den uppgiften med idag så blev jag klar. Det som har varit svårast med uppgiften har varit att komma på allt som man skulle ha med. För det var väldigt mycket saker. 
+Jag har fått mycket hjälp ifrån Rikard eftersom jag försökt googla mig till svaren men det var svårt eftersom nästan ingen såg likadan ut som de jag hade programmerat. 
 
 24 01 26
 -------------
