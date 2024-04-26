@@ -1,5 +1,9 @@
 Loggbok
 ==============
+
+24 04 22
+------------
+Idag så har jag börjat med 7080 definera funktioner. Det var ibörjan lite svårt eftersom jag inte förstod men när jag lärde mig så tyckte jag att det gick mycket enklare. På den uppgiften så har jag gjort klart uppgift 1, 2a och 2b. Det var första som var svårast medans dom andra två uppgifterna var väldigt mycket enklare. 
 24 04 19
 ------------
 Idag så har jag gjort klart yatsy uppgiften. Det är ganska lång tid som jag hållit på med den uppgiften med idag så blev jag klar. Det som har varit svårast med uppgiften har varit att komma på allt som man skulle ha med. För det var väldigt mycket saker. 
