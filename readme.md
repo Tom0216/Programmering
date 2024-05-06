@@ -1,6 +1,12 @@
 Loggbok
 ==============
 
+24 05 03
+-------------
+Idag så har jag gjort klart uppgift 1701 kodgenerator. I början så var det lite svårt eftersom jag inte visste hur jag skulle göra men tillslut så började jag förstå. Rikard hjälpte mig mycket idag med uppgiften tills jag förstod. Jag har idag b.la. lärt mig hur man gör med en for sats för det visste jag inte från början. 
+
+
+
 24 04 22
 ------------
 Idag så har jag börjat med 7080 definera funktioner. Det var ibörjan lite svårt eftersom jag inte förstod men när jag lärde mig så tyckte jag att det gick mycket enklare. På den uppgiften så har jag gjort klart uppgift 1, 2a och 2b. Det var första som var svårast medans dom andra två uppgifterna var väldigt mycket enklare. 
