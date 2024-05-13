@@ -1,6 +1,10 @@
 Loggbok
 ==============
 
+24 05 16
+--------------
+Idag så har jag gjort klart 7101 tidtagaren. Men jag tyckte det var lite svårt i början på den uppgiften också hur man skulle börja och hur man skulle göra men det gick bra efter att jag fått hjälp ifrån Rikard. Det som var svårast i uppgiften var just att veta när man använde tid för jag har aldrig använt det innan alltså programmerat andra saker med tid. Nästa uppgift som jag ska göra är 7101 äggklockan timer. 
+
 24 05 03
 -------------
 Idag så har jag gjort klart uppgift 1701 kodgenerator. I början så var det lite svårt eftersom jag inte visste hur jag skulle göra men tillslut så började jag förstå. Rikard hjälpte mig mycket idag med uppgiften tills jag förstod. Jag har idag b.la. lärt mig hur man gör med en for sats för det visste jag inte från början. 
