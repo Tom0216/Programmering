@@ -1,6 +1,8 @@
 Loggbok
 ==============
 
+24 05 13
+
 24 05 16
 --------------
 Idag så har jag gjort klart 7101 tidtagaren. Men jag tyckte det var lite svårt i början på den uppgiften också hur man skulle börja och hur man skulle göra men det gick bra efter att jag fått hjälp ifrån Rikard. Det som var svårast i uppgiften var just att veta när man använde tid för jag har aldrig använt det innan alltså programmerat andra saker med tid. Nästa uppgift som jag ska göra är 7101 äggklockan timer. 
