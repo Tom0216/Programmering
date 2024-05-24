@@ -1,7 +1,17 @@
 Loggbok
 ==============
 
-24 05 13
+24 05 24
+--------------
+Idag så har jag gjort klart kvadratmeter, hektar och tunnlands saken i mitt enhetsprojekt. Det har ändå gått väldigt bra idag och jag har ändå hunnit med mycket saker. Idag behövde jag inte lika mycket hjälp men ändå lite hjälp från Rikard behövde jag. Nästa vecka ska jag börja med nästa enhet som är olika recept mått som t.ex. deciliter, kryddmått och matsked.
+
+
+
+
+
+24 05 17
+--------------
+Idag så har jag börjat med min enhetsomvandlare där jag tänker att jag ska ha flera olika enheter som man kan välja emellan inom ett visst område och sedan så kommer de man kan välja emellan. Men jag tycker ändå att det har gått väldigt bra idga och jag har ändå fått ganska mycket gjort. Det som var svårast idag var att jag gjorde en lista i en annan lista som jag lärde mig hur jag skulle göra idag. Men Rikard lärde mig mycket idag och jag fattade till slut. 
 
 24 05 16
 --------------
