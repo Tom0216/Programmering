@@ -1,6 +1,11 @@
 Loggbok
 ==============
 
+24 05 31
+--------------
+Idag så har jag gjort klart min enhetsomvandlare. Det var svårare idag att veta hur många deciliter som gick på så många matskedar och andra sådana saker. Så det fick Rikard hjälpa mig mycket med. Men annrs så tycker jag ändå att det har gått bra idag och får se vad jag börjar med nästa gång. Då så tänker jag att jag ska börja med ett nytt projekt från 7101 projekter sidan. 
+
+
 24 05 24
 --------------
 Idag så har jag gjort klart kvadratmeter, hektar och tunnlands saken i mitt enhetsprojekt. Det har ändå gått väldigt bra idag och jag har ändå hunnit med mycket saker. Idag behövde jag inte lika mycket hjälp men ändå lite hjälp från Rikard behövde jag. Nästa vecka ska jag börja med nästa enhet som är olika recept mått som t.ex. deciliter, kryddmått och matsked.
