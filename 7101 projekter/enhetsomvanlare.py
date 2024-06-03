@@ -6,7 +6,25 @@ def hästkrafter_to_kilowatt (hästkrafter):
 def kilowatt_to_hästkrafter (kilowatt):
     hästkrafter = kilowatt / 0.746
     return hästkrafter
-#2. Hastighet
+
+#2. Tryck
+def pascal_to_bar (pascal):
+     bar = pascal /100000
+     return bar
+
+def pascal_to_atmosfär (pascal):
+     atmosfär = pascal /101325
+     return atmosfär
+
+def pascal_to_torr (pascal):
+     torr = pascal /133.322
+     return torr
+
+def pascal_to_psi (pascal):
+     psi = pascal * 145.04/1000000
+     return psi
+
+#3. Hastighet
 def kilometerpertimme_to_meterpersekund (kilometerpertimme):
      meterpersekund = kilometerpertimme /3.6
      return meterpersekund
@@ -14,7 +32,7 @@ def kilometerpertimme_to_meterpersekund (kilometerpertimme):
 def meterpersekund_to_kilometerpertimme (meterpersekund):
      kilometerpertimme = meterpersekund *3.6
      return kilometerpertimme
-#3. Temperatur
+#4. Temperatur
 def celsius_to_farenhight (celsius):
     F = (9/5) * celsius + 32
     return F
@@ -38,7 +56,7 @@ def farenhight_to_kelvin(farenheight):
     celsius = farenhight_to_celsius(farenheight)
     kelvin = celsius_to_kelvin(celsius)
     return kelvin
-#4. Areaenheter
+#5. Areaenheter
 def kvadratmeter_to_hektar(kvadratmeter):
      # 1000 000 = 10 000 * 100
      # 1000 000 / 10 000 = 100
@@ -64,7 +82,7 @@ def hektar_to_tunnland (hektar):
 def tunnland_to_kvadratmeter (tunnland):
      kvadratmeter = tunnland * 4046.85
      return kvadratmeter
-# 5. Recept mått
+# 6. Recept mått
 def kryddmått_to_deciliter (kryddmått):
      deciliter = kryddmått * 0.01
      return deciliter
@@ -116,11 +134,11 @@ def matsked_to_tesked (matsked):
 def läs_input():
     print ("Vad vill du omvandla?")
     print ("1. Effekt (hästkraft, kilowatt)")
-    print ("2. Hastighet (km/h, m/s)")
-    print ("3. Temperatur (celsius, farenheight, kelvin)")
-    print ("4. Areaenheter (kvadratmeter, hektar, tunnland)")
-    print ("5. Recept: Mått (deciliter, kryddmått, matsked, tesked)")
-    print ("6. Recept: Volym, vikt för olika livsmedel (mjöl, makaroner, socker)")
+    print ("2. Tryck (pascal, bar, atmosfär, torr, (psi)skålpunds kraft per kvadratum)")
+    print ("3. Hastighet (km/h, m/s)")
+    print ("4. Temperatur (celsius, farenheight, kelvin)")
+    print ("5. Areaenheter (kvadratmeter, hektar, tunnland)")
+    print ("6. Recept: Mått (deciliter, kryddmått, matsked, tesked)")
     svar = input("välj:")
     return svar
 
@@ -130,6 +148,19 @@ def  läs_input_hästkraft_kilowatt():
     print("2. kilowatt → hästkrafter")
     svar = input("välj:")
     return svar
+
+def läs_input_pascal_to_bar():
+     print ("Vad vill du omvandla?")
+     print ("1. Pascal → Bar")
+     print ("2. Pascal → Atmosfär")
+     print ("3. Pascal → Torr")
+     print ("4. Pascal → Psi ")
+     print ("5. Bar → Pascal")
+     print ("6. Bar → Atmosfär")
+     print ("7. Bar → Torr")
+     print ("8. Bar → psi")
+     svar = input("Välj:")
+     return svar
 
 def läs_input_kilometerpertimme_to_meterpersekund():
      print ("Vad vill du omvandla?")
@@ -192,9 +223,29 @@ while svar == "1":
 
     if svar == "2":
             kilowatt = float (input("Ange effekten i Kilowatt → Hästkraft:"))
-            print ("Efftekten är", kilowatt_to_hästkrafter(kilowatt), "hästkrafter")
+            print ("Effekten är", kilowatt_to_hästkrafter(kilowatt), "hästkrafter")
 
 while svar == "2":
+
+     svar = läs_input_pascal_to_bar()
+
+     if svar == "1":
+          pascal = float (input("Ange trycket i Pascal → Bar:"))
+          print ("Trycket blir", pascal_to_bar (pascal), "Bar")
+
+     if svar == "2":
+          pascal = float (input("Ange trycket i Pascal → Atmosfär:"))
+          print ("Trycket blir", pascal_to_atmosfär (pascal), "Bar")
+
+     if svar == "3":
+          pascal = float (input("Ange trycket i Pascal → Torr:"))
+          print ("Trycket blir", pascal_to_torr (pascal), "Torr")
+
+     if svar == "4":
+          pascal = float (input("Ange trycket i Pascal → psi:"))
+          print ("Trycket blir", pascal_to_psi (pascal), "psi")
+
+while svar == "3":
     svar = läs_input_kilometerpertimme_to_meterpersekund()
 
     if svar == "1":
@@ -205,7 +256,7 @@ while svar == "2":
             meterpersekund = float (input("Ange hastigheten i m/s → km/h:"))
             print ("Hastigheten är", meterpersekund_to_kilometerpertimme (meterpersekund), "km/h")
 
-while svar == "3":
+while svar == "4":
     svar = läs_input_celsius_to_farenhight()
 
     if svar == "1":
@@ -227,7 +278,7 @@ while svar == "3":
         farenhight = float (input("Ange temperatur i farenheight → Kelvin:"))
         print ("Temperaturen är", farenhight_to_kelvin(farenhight), "kelvin")
 
-while svar == "4":
+while svar == "5":
     svar = läs_input_kvadratmeter_to_hektar()
 
     if svar == "1":
@@ -254,7 +305,7 @@ while svar == "4":
          tunnland = float (input("Ange längden i tunnland → kvadratmeter:"))
          print ("Längden blir", tunnland_to_kvadratmeter (tunnland), "kvadratmeter")
 
-while svar == "5":
+while svar == "6":
     svar = läs_input_kryddmått_to_deciliter()
 
     if svar == "1":

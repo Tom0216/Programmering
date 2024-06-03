@@ -3,7 +3,9 @@ Loggbok
 
 24 05 31
 --------------
-Idag så har jag gjort klart min enhetsomvandlare. Det var svårare idag att veta hur många deciliter som gick på så många matskedar och andra sådana saker. Så det fick Rikard hjälpa mig mycket med. Men annrs så tycker jag ändå att det har gått bra idag och får se vad jag börjar med nästa gång. Då så tänker jag att jag ska börja med ett nytt projekt från 7101 projekter sidan. 
+Idag så har jag gjort klart min enhetsomvandlare. Det var svårare idag att veta hur många deciliter som gick på så många matskedar och andra sådana saker. Så det fick Rikard hjälpa mig mycket med. Men annrs så tycker jag ändå att det har gått bra idag och får se vad jag börjar med nästa gång. Då så tänker jag att jag ska börja med ett nytt projekt från 7101 projekter sidan eller så fortsätter jag att utöka min enhetsomvandlare nästa vecka då kanske jag skriver volym eller då vikt på olika sorters livsmedel. 
+
+
 
 
 24 05 24
