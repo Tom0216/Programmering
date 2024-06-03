@@ -1,6 +1,11 @@
 Loggbok
 ==============
 
+24 06 03
+-------------
+Idag så har det ändå gått väldigt bra tycker jag och jag har fortsättit med förra uppgiften men har lagt till en kategori som är tryck som man kan välja emellan. Jag tyckte att det fungerade bra och att det va lite hjälp jag behövde i början med omvandlingen från två olika tryckenheter. Då tog jag hjälp ifrån Ricard men annars så gick det väldigt bra tycker jag. 
+
+
 24 05 31
 --------------
 Idag så har jag gjort klart min enhetsomvandlare. Det var svårare idag att veta hur många deciliter som gick på så många matskedar och andra sådana saker. Så det fick Rikard hjälpa mig mycket med. Men annrs så tycker jag ändå att det har gått bra idag och får se vad jag börjar med nästa gång. Då så tänker jag att jag ska börja med ett nytt projekt från 7101 projekter sidan eller så fortsätter jag att utöka min enhetsomvandlare nästa vecka då kanske jag skriver volym eller då vikt på olika sorters livsmedel. 
