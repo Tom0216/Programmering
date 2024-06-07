@@ -1,6 +1,11 @@
 Loggbok
 ==============
 
+24 06 07
+-------------
+Idag så har jag hunnit med ganksa mycket tycker jag ändå. Jag jobbade med enhetsomvandlaren och höll på med trycket. Idag så hann jag klart med "atmosfären" och "baren" så det är jag väldgt nöjd över. Det jag tog hjälp utav var en wikiepdia sida där deet stod hur man omvanlade det olika sakerna till varandra. Jag har ändå lärt mig hur man enhetsomvandlar nu efter att hållt på med det i så många veckor. 
+
+
 24 06 03
 -------------
 Idag så har det ändå gått väldigt bra tycker jag och jag har fortsättit med förra uppgiften men har lagt till en kategori som är tryck som man kan välja emellan. Jag tyckte att det fungerade bra och att det va lite hjälp jag behövde i början med omvandlingen från två olika tryckenheter. Då tog jag hjälp ifrån Ricard men annars så gick det väldigt bra tycker jag. 
