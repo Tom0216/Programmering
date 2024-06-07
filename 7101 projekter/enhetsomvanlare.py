@@ -24,6 +24,38 @@ def pascal_to_psi (pascal):
      psi = pascal * 145.04/1000000
      return psi
 
+def bar_to_pascal (bar):
+     pascal = bar * 1 * 0.00001
+     return pascal
+
+def bar_to_atmosfär (bar):
+     atmosfär = bar /1.01325
+     return atmosfär
+
+def bar_to_torr (bar):
+     torr = bar * 1.3332/1000
+     return torr
+
+def bar_to_psi (bar):
+     psi = bar * 68.948/1000
+     return psi
+
+def atmosfär_to_pascal (atmosfär):
+     pascal = atmosfär * 9.8692/1000000
+     return pascal
+
+def atmosfär_to_bar (atmosfär):
+     bar = atmosfär *0.98692
+     return bar
+
+def atmosfär_to_torr (atmosfär):
+     torr = atmosfär * 1.3158/1000
+     return torr
+
+def atmosfär_to_psi (atmosfär):
+     psi = atmosfär * 68.046/1000
+     return psi
+
 #3. Hastighet
 def kilometerpertimme_to_meterpersekund (kilometerpertimme):
      meterpersekund = kilometerpertimme /3.6
@@ -159,6 +191,10 @@ def läs_input_pascal_to_bar():
      print ("6. Bar → Atmosfär")
      print ("7. Bar → Torr")
      print ("8. Bar → psi")
+     print ("9. Atmosfär → Pascal")
+     print ("10. Atmosfär → Bar")
+     print ("11. Atmosfär → Torr")
+     print ("12. Atmosfär → psi")
      svar = input("Välj:")
      return svar
 
@@ -244,6 +280,38 @@ while svar == "2":
      if svar == "4":
           pascal = float (input("Ange trycket i Pascal → psi:"))
           print ("Trycket blir", pascal_to_psi (pascal), "psi")
+
+     if svar == "5":
+          bar = float (input("Ange trycket i Bar → Pascal:"))
+          print ("Trycket blir", bar_to_pascal (bar), "Pascal")
+
+     if svar == "6":
+          bar = float (input("Ange trycket Bar → Atmosfär:"))
+          print ("Trycket blir", bar_to_atmosfär (bar), "Atmosfär")
+     
+     if svar == "7":
+          bar = float (input("Ange trycket i Bar → Torr:"))
+          print ("Trycket blir", bar_to_torr (bar), "Torr")
+
+     if svar == "8":
+          bar = float (input("Ange trycket i Bar → psi:"))
+          print ("Trycket blir", bar_to_psi (bar), "psi")
+     
+     if svar == "9":
+          atmosfär = float (input("Ange trycket i Atmosfär → Pascal:"))
+          print ("Trycket blir", atmosfär_to_pascal (atmosfär), "Pascal")
+
+     if svar == "10":
+          atmosfär = float (input("Ange trycket i Atmosfär → Bar:"))
+          print ("Trycket blir", atmosfär_to_bar (atmosfär), "Bar")
+
+     if svar == "11":
+          atmosfär = float (input("Ange trycket i Atmosfär → Torr:"))
+          print ("Trycket blir", atmosfär_to_torr (atmosfär), "Torr")
+
+     if svar == "12":
+          atmosfär = float (input("Ange trycket i Atmosfär → psi:"))
+          print ("Trycket blir", atmosfär_to_psi (atmosfär), "psi")
 
 while svar == "3":
     svar = läs_input_kilometerpertimme_to_meterpersekund()
