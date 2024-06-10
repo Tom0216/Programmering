@@ -53,7 +53,39 @@ def atmosfär_to_torr (atmosfär):
      return torr
 
 def atmosfär_to_psi (atmosfär):
-     psi = atmosfär * 68.046/1000
+     psi = atmosfär /( 68.046/1000)
+     return psi
+
+def psi_to_pascal (psi):
+     pascal = psi *6.894*1000
+     return pascal
+
+def psi_to_Bar (psi):
+     bar = psi *14.5037744
+     return bar
+
+def psi_to_atmosfär (psi):
+     atmosfär = psi * 14.696
+     return atmosfär
+
+def psi_to_torr (psi):
+     torr = psi/ (19.337*10000)
+     return torr
+
+def torr_to_pascal (torr):
+     pascal = torr /(7.5006/1000)
+     return pascal
+
+def torr_to_bar (torr):
+     bar = torr * 750.06
+     return bar
+
+def torr_to_atmosfär (torr):
+     atmosfär = torr * 760
+     return atmosfär
+
+def torr_to_psi (torr):
+     psi = torr * 51.715
      return psi
 
 #3. Hastighet
@@ -171,6 +203,7 @@ def läs_input():
     print ("4. Temperatur (celsius, farenheight, kelvin)")
     print ("5. Areaenheter (kvadratmeter, hektar, tunnland)")
     print ("6. Recept: Mått (deciliter, kryddmått, matsked, tesked)")
+    print ("7. Vill du avsluta")
     svar = input("välj:")
     return svar
 
@@ -195,6 +228,14 @@ def läs_input_pascal_to_bar():
      print ("10. Atmosfär → Bar")
      print ("11. Atmosfär → Torr")
      print ("12. Atmosfär → psi")
+     print ("13. psi → Pascal")
+     print ("14. psi → Bar")
+     print ("15. psi → Atmosfär")
+     print ("16. psi → Torr")
+     print ("17. Torr → Pascal")
+     print ("18. Torr → Bar")
+     print ("19. Torr → Atmosfär")
+     print ("20. Torr → psi")
      svar = input("Välj:")
      return svar
 
@@ -244,6 +285,8 @@ def läs_input_kryddmått_to_deciliter():
      print ("12. Matsked → Tesked ")
      svar = input("välj: ")
      return svar
+
+
 
 svar = läs_input()
 
@@ -312,6 +355,38 @@ while svar == "2":
      if svar == "12":
           atmosfär = float (input("Ange trycket i Atmosfär → psi:"))
           print ("Trycket blir", atmosfär_to_psi (atmosfär), "psi")
+
+     if svar == "13":
+          psi = float (input("Ange trycket i psi → Pascal:"))
+          print ("Trycket blir", psi_to_pascal (psi), "Pascal")
+
+     if svar == "14":
+          psi = float (input("Ange trycket i psi → Bar:"))
+          print ("Trycket blir", psi_to_Bar (psi), "Bar")
+
+     if svar == "15":
+          psi = float (input("Ange trycket i psi → Atmosfär:"))
+          print ("Trcket blir", psi_to_atmosfär (psi), "Atmosfär")
+
+     if svar == "16":
+          psi = float (input("Ange trycket i psi → Torr:"))
+          print ("Trycket blir", psi_to_torr (psi), "Torr")
+
+     if svar == "17":
+          torr = float ("Ange trycket i Torr → Pascal:")
+          print ("Trycket blir", torr_to_pascal (torr), "Pascal")
+
+     if svar == "18":
+          torr = float ("Ange trycket i Torr → Bar:")
+          print ("Trycket blir", torr_to_bar (torr), "Bar")
+
+     if svar == "19":
+          torr = float ("Ange trycket i Torr → Atmosfär:")
+          print ("Trycket blir", torr_to_atmosfär (torr), "Atmosfär")
+
+     if svar == "20":
+          torr = float ("Ange trycket i Torr → psi:")
+          print ("Trycket blir", torr_to_psi (torr), "psi")
 
 while svar == "3":
     svar = läs_input_kilometerpertimme_to_meterpersekund()
@@ -424,5 +499,7 @@ while svar == "6":
     if svar == "12":
          matsked = float (input("Ange mängden i Matsked → Tesked:"))
          print ("Mängden blir", matsked_to_tesked (matsked), "Tesked")
-         
-print ("Tack för att du spelade :)")
+
+if svar == "7":
+     print("Tack för att du spelade :)")
+     print ("SLUT")
